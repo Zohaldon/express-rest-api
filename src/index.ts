@@ -5,6 +5,7 @@ import cookieParser from 'cookie-parser';
 import compression from 'compression';
 import cors from 'cors';
 import mongoose from 'mongoose';
+const dotenv = require('dotenv').config();
 
 const app = express();
 
@@ -21,8 +22,6 @@ server.listen(8080, () => {
     console.log("Server is now running on http://localhost:8080")
 });
 
-const MONGODB_URL = '<<mongo_cluster_url>>';
-
 mongoose.Promise = Promise;
-mongoose.connect(MONGODB_URL);
+mongoose.connect(process.env["MONGODB_URL"]);
 mongoose.connection.on('error',(error: Error) => console.log(error));
