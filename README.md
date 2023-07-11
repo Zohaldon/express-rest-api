@@ -10,3 +10,6 @@ A simple implementation of CRUD operations with authentication support built usi
 - Copy the Admin user ID and Password
 - Select the mongoDB cluster URL and replace the ID and Password
 - Set the mongoDB URL in `.env` file
+
+## Sample Screenshot
+<img src="./readme_assets/demo_express_rest_api.png"></img>
