@@ -1,9 +1,10 @@
 # Express REST API Backend
 A simple implementation of CRUD operations with authentication support built using following techonologies
-- Node.js
-- TypeScript
-- Express.js
-- MongoDB
+
+
+| Nodejs                                                                                   | TypeScript                                                                                       | Express.js                                                                                                                                  | MongoDB                                                                                    |
+|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| <img alt="Nodejs logo" height=80px width=80px src="readme_assets/tech_stack/nodejs.png"> | <img alt="Typescript logo" height=80px width=80px src="readme_assets/tech_stack/typescript.png"> | <img style='background-color: rgb(300, 300, 300);' alt="Express.js logo" height=80px width=80px src="readme_assets/tech_stack/express.png"> | <img alt="MongoDB logo" height=80px width=80px src="readme_assets/tech_stack/mongodb.png"> |
 
 ---
 
